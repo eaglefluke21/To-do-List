@@ -152,14 +152,14 @@ const InsertForm = () => {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           placeholder="Task Name"
-          className="border rounded px-8 py-2 mb-4 font-quick"
+          className="border rounded px-8 py-2 mb-4 font-quick font-medium"
           required
         />
         <textarea
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           placeholder="Task Description"
-          className="border rounded w-72 h-48 mb-4 font-quick"
+          className="border rounded w-72 h-48 mb-4 font-quick font-medium"
           required
         />
         <button type="submit" className="bg-black text-white font-quick rounded px-4 py-2">
