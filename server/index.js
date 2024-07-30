@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 const corsOptions = {
-  origin: 'https://task-list-gules.vercel.app', 
+  origin: 'https://to-do-list-fawn-gamma.vercel.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true 
